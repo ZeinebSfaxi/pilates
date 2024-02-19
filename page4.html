@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Massages</title>
+    <meta name="description" content="Les formulaires de massage,Nathuropathie, pour les probleme,Scoliose,Cervicalgie,Tendinite,Lombalgie." />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="icon" href="Ressources/logo4.png">
+    <link rel="stylesheet" href="style.css">
+    <meta name="keywords" content="cours de pilates, elephant pilates, yoga, nathuropathie, lombalgie, strasbourg,sport sante, equilibre, abdominaux, massage">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar is-fixed-top">
+            <div class="columns is-centered">
+                <div class="column is-two-quarters">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="#">
+                            <img src="Ressources/logo4.png" alt="logo" class="image-logo">
+                        </a>
+                        <div class="navbar-burger burger"  id="btnNav"  data-target="menuContent">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="menuContent" class="navbar-menu menu-content">
+                <div class="navbar-end">
+                    <a class="navbar-item menu" href="index.html">
+                        Accueil
+                      </a>
+                  <a class="navbar-item menu" href="page1.html">
+                    Équipe
+                  </a>
+                  <a class="navbar-item menu" href="page2.html">
+                    Présentation de la méthode
+                  </a>
+                  <a class="navbar-item menu" href="page3.html">
+                    Notre gamme de cours
+                  </a>
+                  <a class="navbar-item menu" href="page4.html">
+                    Massages
+                  </a>
+                  <a class="navbar-item menu" href="page5.html">
+                    Nous contacter
+                  </a>
+                  <div class="col-auto col-lg-2 text-end pe-0 font-size-0">
+                    <div class="header-social-icon d-inline-block">
+                        <a class="insta" href="https://www.instagram.com/elephant.pilates/" target="_blank"><i class="fab fa-instagram icon-lg"></i></a>
+                    </div>
+                  </div>
+                </div>
+             </div>
+        </nav>
+    </header>
+
+    <br><br><br><br><br>
+
+    <section class="container4" id="massages">
+        <div class="columns is-mobile is is-multiline massage">
+            <div class="column is-12-mobile is-6-tablet is-4-desktop massage has-text-justified">
+                <figure class="image is-256x256">
+                    <img class="image" src="Ressources/IMG-20230707-WA0000.jpg" alt="Massage detente Nathuropathie Lombalgie equilibre
+                    Cervicalgie">
+                </figure>
+                <p>
+                    Votre studio de Pilates vous propose désormais des massages bien-être.
+                <br><br>
+                 C'est le moment de vous accorder du temps et prendre soin de vous
+                </p>
+            </div>
+            <div class="column is-12-mobile is-6-tablet is-4-desktop massage">
+                <div class="card-body massage">
+                    <p><strong>Massage relaxant</strong></p>
+                    <br>
+                    <p>30 min - 45,00€</p>
+                    <p>45 min - 55,00€</p>
+                    <p>60 min - 65,00€</p>
+                    <p>.</p>
+                    <br>
+                    <p><strong>Massage du dos</strong></p>
+                    <br>
+                    <p>30 min - 40,00€</p>
+                    <p>.</p>
+                    <br>
+                    <p><strong>Massage sportifs</strong></p>
+                    <br>
+                    <p>45 min - 65,00€</p>
+                    <p>60 min - 75,00€</p>
+                    <p>.</p>
+                    <br>
+                    <p><strong>Massage circulatoire</strong></p>
+                    <br>
+                    <p>30 min - 40,00€</p>
+                    <p>45 min - 50,00€</p>
+                    <p>60 min - 60,00€</p>
+                    <p>.</p>
+                    <br>
+                    <p><strong>Massage anti-migraines</strong></p>
+                    <br>
+                    <p>30 min - 30,00€</p>
+                    <p>.</p>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br><br>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <div class="row align-items-center">
+                <div class="col-12 text-center last-paragraph-no-margin">
+                    <p>&copy; Tous Droits Réservés <a href="#" target="_blank" class="text-decoration-line-bottom text-extra-dark-gray">Elephant</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var btn = document.getElementById("btnNav");
+        var content = document.getElementById('menuContent');
+        console.log(content);
+
+        btn.addEventListener('click',function(){
+            content.classList.toggle('is-active');
+        })
+
+    </script>
+</body>
+</html>
